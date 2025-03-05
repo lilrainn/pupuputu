@@ -1,7 +1,6 @@
 import sys
 
 def bubble_sort(arr):
-    """Функция для сортировки списка методом пузырька."""
     n = len(arr)
     for i in range(n - 1):
         for j in range(n - i - 1):
